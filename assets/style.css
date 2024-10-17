@@ -1,8 +1,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+    --text-color: #595e64;
+    --card-front-color: #9ea6b1;
+    --card-back-color: #5c5c5c;
+}
+
 body{
     background: url(img/bg-desktop.webp);
-    font-family:"Bai Jamjuree" ;
+    font-family:"PT Serif" ;
 }
 
 #container{
@@ -57,7 +64,6 @@ body{
     transform: rotateY(180deg);
     /* Transformando a rotação no eixoY em 180graus*/
 }
-
 .cartao__conteudo__pergunta,
 .cartao__conteudo__resposta{
     backface-visibility: hidden; /*ELEMENTOS FICAM OCULTOS*/
@@ -65,15 +71,9 @@ body{
     height: 100%;
     width: 100%;
 }
-
 .cartao__conteudo__resposta{
     transform: rotateY(180deg);
 }
-
-
-
-
-
 footer {
     background-color: black;
     color: white;
@@ -82,7 +82,6 @@ footer {
     width:100%;
     height: 2rem;
 }
-
 footer p{
     text-align: center;
     font-size: 0.6rem;
