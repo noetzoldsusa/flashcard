@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root {
-    --text-color: #595e64;
-    --card-front-color: #9ea6b1;
-    --card-back-color: #5c5c5c;
+    --text-color: #770d0d;
+    --card-front-color: #c53636;
+    --card-back-color: #3b0000;
 }
 
 body{
